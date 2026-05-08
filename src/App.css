@@ -6,9 +6,13 @@ h1 {
     font-family: "DM Serif Text", sans-serif;
 }
 
+.navbar {
+    background-color: #fff;
+}
+
 header {
-    min-height: 70vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url(../public/background.jpg);
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.684), rgba(0, 0, 0, 0.684)), url(../public/background.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -20,4 +24,12 @@ header h1 {
 
 header p {
     font-size: 17px;
+}
+
+.about img {
+    width: 450px;
+}
+
+.about p {
+    text-align: justify;
 }

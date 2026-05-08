@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Navigate = () => {
     return (
-        <Navbar expand="lg" data-bs-theme="light" sticky="top" className="py-4 shadow-sm">
+        <Navbar expand="lg" sticky="top" className="navbar py-4 shadow-sm">
             <Container>
                 <Navbar.Brand href="#">
                     <strong>OtakuVerse</strong>
