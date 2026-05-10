@@ -38,14 +38,21 @@ header p {
     text-align: justify;
 }
 
+.anime-fav {
+    background-color: #f7fbfc;
+}
+
 .anime-fav img {
     width: 100%;
     height: 300px;
     object-fit: cover;
+    margin: auto;
+    border-radius: 0%;
 }
 
 .anime-fav .card {
     border: 0px;
+    border-radius: 0%;
 }
 
 .anime-fav span {
@@ -58,4 +65,9 @@ header p {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+}
+
+.card-footer {
+    background: none;
+    border: none;
 }
