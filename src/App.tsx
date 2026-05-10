@@ -2,6 +2,7 @@ import Navigate from "./components/Navigate";
 import Header from "./components/Header";
 import About from "./components/About";
 import Anime from "./components/Anime";
+import Games from "./components/Games";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
             <Header />
             <About />
             <Anime />
+            <Games />
         </>
     );
 }
