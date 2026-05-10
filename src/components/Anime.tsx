@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
-export default function AnimeFav() {
+export default function Anime() {
     const animes = [
         {
             name: "Demon Slayer: Kimetsu no Yaiba",

@@ -1,7 +1,7 @@
 import Navigate from "./components/Navigate";
 import Header from "./components/Header";
 import About from "./components/About";
-import AnimeFav from "./components/AnimeFav";
+import Anime from "./components/Anime";
 import "./App.css";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
             <Navigate />
             <Header />
             <About />
-            <AnimeFav />
+            <Anime />
         </>
     );
 }
