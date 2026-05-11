@@ -87,6 +87,10 @@ header p {
     object-fit: cover;
 }
 
+.games .card {
+    border: none;
+}
+
 .games span {
     font-weight: 300;
     font-size: 13px;

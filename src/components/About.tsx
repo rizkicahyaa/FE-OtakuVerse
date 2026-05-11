@@ -14,7 +14,7 @@ const About = () => {
                         <Image src={GhibliIcon} className="img-fluid" />
                     </Col>
                     <Col md="6">
-                        <h1 className="mb-3">About</h1>
+                        <h1 className="mb-3 text-uppercase">About</h1>
                         <p> OtakuVerse is a personal space dedicated to the anime series, characters, and games that I truly enjoy. This website was created to share my favorite worlds from action-packed shounen adventures to emotional fantasy stories and immersive gaming experiences. Through OtakuVerse, I want to showcase the titles that inspired me, entertained me, and became part of my journey as an anime and game enthusiast.</p>
                     </Col>
                 </Row>

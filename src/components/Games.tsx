@@ -29,12 +29,12 @@ export default function Games() {
         <section className="games py-5">
             <Container>
                 <Row className="text-center mb-3">
-                    <h1>Games Favorite</h1>
+                    <h1 className="text-uppercase">Games Favorite</h1>
                 </Row>
                 <Row>
                     {games.map((game) => (
                         <Col md="4" className="g-4">
-                            <Card className="card">
+                            <Card className="card shadow-sm">
                                 <img src={game.image} alt={game.name} />
                                 <Card.Body>
                                     <Card.Title>{game.name}</Card.Title>

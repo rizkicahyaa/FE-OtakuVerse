@@ -53,9 +53,9 @@ export default function Anime() {
         <section className="anime-fav py-5" id="anime">
             <Container>
                 <Row className="mb-3">
-                    <h1>Anime Favorite</h1>
+                    <h1 className="text-uppercase">Anime Favorite</h1>
                 </Row>
-                <Row className="">
+                <Row className="d-flex justify-content-center">
                     <>
                         {animes.map((anime) => (
                             <Col xs="8" md="2" className="g-4">
