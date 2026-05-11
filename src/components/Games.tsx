@@ -26,7 +26,7 @@ export default function Games() {
     ];
 
     return (
-        <section className="games py-5">
+        <section className="games py-5" id="games">
             <Container>
                 <Row className="text-center mb-3">
                     <h1 className="text-uppercase">Games Favorite</h1>
