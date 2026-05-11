@@ -85,10 +85,12 @@ header p {
     width: 100%;
     height: 220px;
     object-fit: cover;
+    border-radius: 0px;
 }
 
 .games .card {
     border: none;
+    border-radius: 0px;
 }
 
 .games span {

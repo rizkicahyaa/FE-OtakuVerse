@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { CardImg, Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
@@ -10,18 +10,21 @@ export default function Games() {
             genre: ["Action", "RPG", "Anime"],
             image: "/images/genshin.jpeg",
             id_game: "838061240",
+            url: "https://genshin.hoyoverse.com/",
         },
         {
             name: "Honkai Star Rail",
             genre: ["Action", "Turn-Based RPG", "Anime"],
             image: "/images/hsr.jpg",
             id_game: "831586336",
+            url: "https://hsr.hoyoverse.com/",
         },
         {
             name: "Umamusume: Pretty Derby",
             genre: ["Racing RPG", "Sports"],
             image: "/images/umamusume.jpg",
             id_game: "386971561576",
+            url: "https://umamusume.com/",
         },
     ];
 
@@ -35,7 +38,7 @@ export default function Games() {
                     {games.map((game) => (
                         <Col md="4" className="g-4">
                             <Card className="card shadow-sm">
-                                <img src={game.image} alt={game.name} />
+                                <Card.Img src={game.image} alt={game.name} />
                                 <Card.Body>
                                     <Card.Title>{game.name}</Card.Title>
                                     {game.genre.map((genres) => (
@@ -44,8 +47,11 @@ export default function Games() {
                                         </span>
                                     ))}
                                 </Card.Body>
-                                <Card.Footer className="card-footer">
+                                <Card.Footer className="card-footer d-flex justify-content-between">
                                     <span className="id-game">UID Game: {game.id_game}</span>
+                                    <a href={game.url} target="_blank">
+                                        Game Details
+                                    </a>
                                 </Card.Footer>
                             </Card>
                         </Col>
