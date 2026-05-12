@@ -54,15 +54,25 @@ export default function Anime() {
                                 <Modal.Title id="blabla">{selectedAnime?.name}</Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
-                                <img src={selectedAnime?.image} alt={selectedAnime?.name} className="img-fluid rounded mb-3" />
+                                <Row className="d-flex justify-content-center">
+                                    <Col md="4">
+                                        <img src={selectedAnime?.image} alt={selectedAnime?.name} className="img-fluid rounded mb-3" />
 
-                                <p>
-                                    <strong>Genre:</strong> {selectedAnime?.genre.join(", ")}
-                                </p>
+                                        <p>
+                                            <strong>Genre:</strong> {selectedAnime?.genre.join(", ")}
+                                        </p>
 
-                                <p>
-                                    <strong>Rating:</strong> ⭐ {selectedAnime?.rating}
-                                </p>
+                                        <p>
+                                            <strong>Rating:</strong> ⭐ {selectedAnime?.rating}
+                                        </p>
+                                    </Col>
+                                    <Col md="8">
+                                        <p>
+                                            <strong>Synopsis:</strong>
+                                        </p>
+                                        <p>{selectedAnime?.synopsis}</p>
+                                    </Col>
+                                </Row>
                             </Modal.Body>
                         </Modal>
                     </>
